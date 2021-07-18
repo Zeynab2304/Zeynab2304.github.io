@@ -1,0 +1,275 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+.container{
+    max-width: 90%;
+    margin:auto;
+}
+#header{
+    background-color: plum;
+}
+#nav img{
+    margin-top: 60px;
+    margin-left:40px;
+}
+#nav ul{
+    float:right;
+    margin-top: 70px;
+}
+#nav ul li{
+    display:inline;
+    margin-right: 30px;
+    color:white;
+}
+.active{
+    background-color: #7459a0;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+#section1 h1{
+    color:white;
+    text-align: center;
+    margin-top: 150px;
+}
+#section1 button{
+    background-color: orange;
+    padding:30px 80px;
+    color: #fff;
+    border:none;
+    outline: none;
+    display:block;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+#section2{
+    background-color: palegreen;
+    height:600px;
+}
+#section2 .container > h2{
+    color:#fff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 36px;
+}
+
+#section2 .container > p{
+    color:#fff;
+    text-align: center;
+    font-size: 24px;
+    width: 60%;
+    margin:auto;
+    margin-top: 25px;
+}
+#services{
+    margin-top: 80px;
+}
+#service{
+    width: 20%;
+    float:left;
+    margin-left: 5%;
+    text-align: center;
+}
+#service img{
+    height: 100px;
+    width:auto;
+}
+#service h3{
+    color:#fff;
+    margin-top: 50px;
+    line-height: 18px;
+}
+#service p{
+    color:#fff;
+    margin-top: 25px;
+}
+#section3{
+    height: 900px;
+    background-color: rgb(192, 189, 189);
+}
+#section3 .container>h3{
+    font-size: 36px;
+    color:orchid;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#section3 .container hr{
+    width: 90px;
+    height: 5px;
+    background-color: cornflowerblue;
+    border:none;
+    margin: auto;
+}
+#section3 .container > p{
+    font-size:18px;
+    color: orchid;
+    text-align: center;
+    padding-top: 20px;
+}
+#section3 .team{
+    width: 20%;
+    margin-right: 5%;
+    float: left;
+    padding-top: 80px;
+}
+#circle{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+.team h3{
+    font-size: 24px;
+    color:rgb(195, 71, 148);
+    text-align: center;
+}
+.team h6{
+    font-size: 16px;
+    color:palevioletred;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+
+}
+.flex div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: royalblue;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#section4{
+    text-align: center;
+    padding-top: 50px;
+}
+#skills{
+    display:flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+#section5{
+    padding-top: 100px;
+    background-color: cornsilk;
+    text-align: center;
+
+}
+#section5 p{
+    width: 70%;
+    margin: auto;
+
+
+}
+#alls{
+    display:flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.alls_div{
+    padding:20px;
+    background-color: rgb(163, 152, 131);
+    border-radius: 8%;
+    margin-right: 20px;
+    
+}
+#photos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.photo_{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#section5_btn{
+    width: 15%;
+    height: 7%;
+    background-color: lime;
+    color:white;
+    border:none;
+    outline: none;
+    margin-bottom: 5%;
+    cursor: pointer;
+
+
+}
+#clients{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#section6{
+    background-color: rgb(243, 42, 102);
+    color:#fff;
+    padding:70px 0;
+}
+#section6 >h2{
+    color:white;
+    text-align: center;
+}
+#section6 >p{
+    text-align: center;
+    margin: 20px 0;
+}
+
+#grey{
+    background-color: #dcdcdc;
+    width:10%;
+    height: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+#section7{
+    background-color: rgb(28, 141, 235);
+    color:white;
+  padding: 350px;
+    margin-top: 20%;
+    text-align: center;
+
+}
+.input input{
+    background-color: rgb(7, 118, 182);
+    color:white;
+    width: 20%;
+    display: flex;
+    height: 15%;
+    border:none;
+    outline:none;
+    margin: auto;
+    
+    
+}
+#big input{
+    background-color: rgb(7, 118, 182);
+    color:white;
+    width: 50%;
+    display: flex;
+    height: 30%;
+    border:none;
+    outline:none;
+    margin: auto;
+}
+.Send{
+    width: 25%;
+    text-align: center;
+    background-color: rgb(12, 204, 238);
+    color:white;
+    border:none;
+    outline:none;
+    height: 20%;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+
+}
+table{
+    background-color: rgb(71, 69, 69);
+    margin-left: 40%;
+    height: 60%;
+    width: 40%;
+    border-color:tomato;
+}
+table tr td div input{
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 5%;
+    width: 50%;
+    margin-left: 40%;
+}
+table tr td i{
+    background-color: tomato;
+    color:white;
+    padding:2%;
+    width: auto;
+    margin-left: 40%;
+}
+#Members{
+    color:white;
+}
+tr td button{
+    background-color: tomato;
+    color:white;
+    width: 50%;
+    margin-left: 40%;
+    outline: none;
+    border:none;
+    padding:2%
+ 
+}
+
+
+
+

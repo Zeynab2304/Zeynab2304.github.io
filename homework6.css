@@ -1,0 +1,87 @@
+#section1{
+    height: 10%;
+    display:flex;
+    justify-content: space-evenly;
+}
+hr{
+    background-color: rgb(9, 22, 204);
+    height: 12px;
+}
+#section2{
+    background-color: white;
+    height: 25%;
+    color:yellowgreen;
+    text-align: center;
+}
+
+#section3{
+    background-color: black;
+    color:white;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
+}
+#NETEL{
+    margin-right: 25%;
+}
+#circle{
+    border-radius: 50%;
+    background-color: rgb(219, 1, 146);
+    height: 17%;
+    width: 2%;
+    margin-left: 25%;
+}
+.div h3{
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    
+
+    
+    
+}
+
+
+img{
+    width: 230%;
+    height: 550%;
+    margin-top: 14%;
+}
+#section4{
+    background-color: black;
+
+}
+.Responsive{
+    background-color: rgb(214, 81, 20);
+    color:white;
+    width: 15%;
+    height: 20%;
+    margin: auto;
+    margin-top: 55%;
+    border:none;
+    outline:none;
+}
+.Easy{
+    background-color: rgb(85, 187, 182);
+    color:white;
+    width: 15%;
+    height: 20%;
+    margin: auto;
+    margin-top: 55%;
+    border:none;
+    outline:none;
+}
+.Quick{
+    background-color: rgb(236, 182, 33);
+    color:white;
+    width: 15%;
+    height: 20%;
+    margin-top: 55%;
+    border:none;
+    outline:none;
+
+
+}

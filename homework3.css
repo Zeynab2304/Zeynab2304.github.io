@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+}
+form{
+    background-color: rgb(245, 93, 23);
+    width: 30%;
+    height: 80%;
+    margin-left: 30%;
+}
+.orange{
+    border-radius: 50%;
+    background-color: orange;
+    height: 15px;
+    width: auto;
+
+}
+.yellow{
+    border-radius: 50%;
+    background-color: yellow;
+    height: 15px;
+    width: auto;
+
+}
+.white{
+    border-radius: 50%;
+    background-color: white;
+    height: 15px;
+    width: auto;
+
+}
+#Path{
+    text-align: center;
+    color:white;
+}
+#Email input{
+    width: 30%;
+    background-color: rgb(200, 79, 8);
+    height: 10%;
+    text-align: center;
+    color:white;
+    border:none;
+    outline:none;
+    margin-left: 35%;
+
+}
+#Password input{
+    width: 30%;
+    background-color: rgb(200, 79, 8);
+    height: 10%;
+    text-align: center;
+    color:white;
+    border:none;
+    outline: none;
+    margin-left: 35%;
+}
+#Login input{
+    width: 30%;
+    background-color:white;
+    height: 10%;
+    text-align: center;
+    color:black; 
+    border:none;
+    outline: none;
+    margin-left: 35%;
+}
+#a a{
+    text-align: center;
+    color:white;
+    margin-left:40% ;
+}
